@@ -16,7 +16,7 @@ jobs:
     - name: Deploy to Server via SFTP
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: sftp. woocommander.ai 
+        server: sftp.woocommander.ai 
         username: woocommander.ai
         password: ${{ secrets.PASSWORD }}
         port: 22
