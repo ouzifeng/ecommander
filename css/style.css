@@ -1,21 +1,4 @@
 
-
-
-
-/*
-  Template Name: WooCommander - Software, App, SaaS & Startup Landing Pages Pack
-  Theme URL: https://themeforest.net/user/dsathemes
-  Description: WooCommander - Software, App, SaaS & Startup Landing Pages Pack
-  Author: DSAThemes
-  Author URL: https://themeforest.net/user/dsathemes
-  Version: 1.4.0
-  Website: www.dsathemes.com
-  Tags: Responsive, HTML5, DSAThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product
-*/
-
-
-
-
 /* ==========================================================================
   01. GENERAL & BASIC STYLES
   =========================================================================== */
@@ -7551,3 +7534,26 @@ nav a#pull {
 .hero-images {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
 ;}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+  .hero-image {
+    margin-top: 40px;
+  }
+
+  .wide-60 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Surface Duo Styles */
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+
+}
