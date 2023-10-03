@@ -18,6 +18,6 @@ jobs:
       with:
         server: sftp.woocommander.ai 
         username: woocommander.ai
-        password: Buster2951=
+       
         port: 22
         server-dir: /customers/0/7/b/woocommander.ai/httpd.www/
